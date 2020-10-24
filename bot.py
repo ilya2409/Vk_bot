@@ -50,7 +50,7 @@ for event in longpoll.listen():
                                                     (если хочешь конечно) напиши "other" """,nani_keyboard)
                         
                 elif any([(i  in text) for i in ["груст", "Груст"]]):
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239039", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239040", nani_keyboard)
 
 
                 #elif any([(i  in text) for i in ["Кот"]]):
