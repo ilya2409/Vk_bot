@@ -39,6 +39,11 @@ for event in longpoll.listen():
                 elif "о боте" in text:
                         write_msg(event.user_id, """VK_bot это маленький онлайн тестер,
                                                     он служит для поднятия может быть твого настроения""",nani_keyboard)
+                        
+                elif "Привет" in text:
+                        write_msg(event.user_id, """Приветствую тебя мой ДЛУГ""",nani_keyboard)
+                        send_img(event.user_id, "Это я :)", "photo-191267548_457239038", nani_keyboard)
+
 
                 #elif any([(i  in text) for i in ["Кот"]]):
                     #write_msg(event.user_id, """Понятненько, они прикольненькие,
