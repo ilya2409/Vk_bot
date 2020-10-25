@@ -41,8 +41,7 @@ for event in longpoll.listen():
                                                     он служит для поднятия может быть твого настроения""",nani_keyboard)
                         
                 elif "Привет" in text:
-                        write_msg(event.user_id, """Приветствую тебя мой ДЛУГ""",nani_keyboard)
-                        send_img(event.user_id, ":)))", "photo-191267548_457239038", nani_keyboard)
+                    send_img(event.user_id, "Приветствую тебя мой ДЛУГ", "photo-191267548_457239038", nani_keyboard)
                         
                 elif any([(i  in text) for i in ["Говор", "говор"]]):
                     write_msg(event.user_id, """Лично я за Minecraft
