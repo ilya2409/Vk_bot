@@ -3,6 +3,7 @@ from testsfile_2 import tests, check_results
 from vk_api.longpoll import VkLongPoll, VkEventType
 from random import randint
 from keyboards_2 import generate_oneline_keyboard, test_keyboard, keyboard_my, keyboard_with_tests, nani_keyboard, other_keyboard, pet_keyboard
+import keyboard
 
 def write_msg(user_id: object, message: object, keyboard: object = test_keyboard) -> object:
     vk.method('messages.send', {'user_id': user_id, 'message': message, 'random_id' : randint(1,32000), 'keyboard':keyboard})
