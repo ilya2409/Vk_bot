@@ -58,10 +58,9 @@ for event in longpoll.listen():
                     #write_msg(event.user_id, """Понятненько, они прикольненькие,
                                                 #особенно когда мелкие""")
                         
-                 elif "Котейки" in text:
-                     write_msg(event.user_id, """Понятненько, они прикольненькие,
+                elif "Котейки" in text:
+                    write_msg(event.user_id, """Понятненько, они прикольненькие,
                                                  особенно когда мелкие""")
-
 
                 elif "Pets" in text:
                     write_msg(event.user_id, '⌨⌨⌨', pet_keyboard)
