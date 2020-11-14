@@ -31,7 +31,7 @@ keyboard_with_tests  = generate_oneline_keyboard(keys)
 keys = [["Хочешь тест?","о боте"],["ping","Это я...", "other"],]
 nani_keyboard = generate_oneline_keyboard(keys)
 
-keys = [["ARTS","Музыка"],["Мемчики"]]
+keys = [["ARTS","Музыка"],["Мемчики", "YouTube"]]
 other_keyboard = generate_oneline_keyboard(keys)
 
 keys = [["Котейка","Собакен"],]
