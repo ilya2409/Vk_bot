@@ -77,7 +77,7 @@ for event in longpoll.listen():
                     
                 elif "Мемчики" in text:
                     write_msg(event.user_id, "https://www.youtube.com/channel/UCJfbG7XfoVkZNakpY0mlXOg",  other_keyboard)
-                    send_img(event.user_id, "photo578623118_457239316")
+                    send_img(event.user_id, "МЕЕЕМ", "photo578623118_457239316")
 
                     
                     
