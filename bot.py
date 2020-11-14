@@ -91,7 +91,7 @@ for event in longpoll.listen():
                             write_msg(event.user_id,tests[text]+'\n отправьте ответы одним сообщением через запятую')
                         elif "Оменить тест" in text:
                             tested_users.pop(event.user_id)
-                            write_msg(event.user_id, "ok",nani_keyboard)
+                            write_msg(event.user_id, "ok",other_keyboard)
 
 
                             
