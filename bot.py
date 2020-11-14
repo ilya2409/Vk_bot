@@ -77,6 +77,7 @@ for event in longpoll.listen():
                     write_msg(event.user_id, "http://www.loveradio.ru",  other_keyboard)
                     
                 elif "YouTube" in text:
+                    write_msg(event.user_id, "https://youtube.com/channel/UCiW6lzSuVk9AnWuCeXDTusA")
                     write_msg(event.user_id, "https://www.youtube.com",  other_keyboard)
                     
                 elif "Мемчики" in text:
