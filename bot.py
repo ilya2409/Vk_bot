@@ -74,6 +74,10 @@ for event in longpoll.listen():
                     
                 elif "YouTube" in text:
                     write_msg(event.user_id, "https://www.youtube.com",  other_keyboard)
+                    
+                elif "Мемчики" in text:
+                    write_msg(event.user_id, "https://www.youtube.com/channel/UCJfbG7XfoVkZNakpY0mlXOg",  other_keyboard)
+
 
 
 
@@ -137,7 +141,7 @@ for event in longpoll.listen():
                     write_msg(event.user_id, "Я бы пообщался с тобой еще,но автор не ввел в меня еще команд,поэтому я знаю совсем немного:(", test_keyboard)
                     
 send_img(event.user_id, """VK_bot это маленький онлайн тестер,
-                                                    он служит для поднятия может быть твого настроения""", "photo-191267548_457239035",nani_keyboard)
+           https://www.youtube.com/channel/UCJfbG7XfoVkZNakpY0mlXOg                                         он служит для поднятия может быть твого настроения""", "photo-191267548_457239035",nani_keyboard)
 
 Психотест
 '''
