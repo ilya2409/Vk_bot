@@ -24,9 +24,9 @@ developer_id = 578623118
 write_msg(developer_id,'''Привет, даже если ты не мой разработчик
                        я всёровно тебе очень рад ;)))''',nani_keyboard)
 write_msg(developer_id, "https://www.youtube.com/channel/UCJfbG7XfoVkZNakpY0mlXOg")
-send_imgdeveloper_id, "МЕЕЕМ", "photo-578623118_457239316", other_keyboard)
+send_img(developer_id, "МЕЕЕМ", "photo-578623118_457239316", other_keyboard)
 
-send_imgdeveloper_id, "МЕЕЕМ", "photo-191267548_457239042", other_keyboard)
+send_img(developer_id, "МЕЕЕМ", "photo-191267548_457239042", other_keyboard)
 for event in longpoll.listen():
 
     if event.type == VkEventType.MESSAGE_NEW:
