@@ -70,7 +70,10 @@ for event in longpoll.listen():
                                                 тема у нас сегодня?""", other_keyboard)
                     
                 elif "Музыка" in text:
-                    write_msg(event.user_id, "http://www.loveradio.ru", other_keyboard)
+                    write_msg(event.user_id, "http://www.loveradio.ru",  other_keyboard)
+                    
+                elif "YouTube" in text:
+                    write_msg(event.user_id, "https://www.youtube.com",  other_keyboard)
 
 
 
