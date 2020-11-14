@@ -77,12 +77,12 @@ for event in longpoll.listen():
                     
                 elif "Мемчики" in text:
                     write_msg(event.user_id, "https://www.youtube.com/channel/UCJfbG7XfoVkZNakpY0mlXOg",  other_keyboard)
+                    send_img(event.user_id, "photo578623118_457239316")
 
-
-
-
-
-                        
+                    
+                    
+                    
+                    
                 elif event.user_id in tested_users.keys():
                     state = tested_users[event.user_id]
                     if state is None:
