@@ -45,7 +45,7 @@ for event in longpoll.listen():
                 elif any([(i  in text) for i in ["Говор", "говор"]]):
                     write_msg(event.user_id, """Лично я за Minecraft
                                                     но мы можем перейти и на другюю тему
-                                                    (если хочешь конечно) напиши "other" """,nani_keyboard)
+                                                    (если хочешь конечно, для этого напиши "other")""",nani_keyboard)
                         
                 elif any([(i  in text) for i in ["груст", "Груст"]]):
                         send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239040", nani_keyboard)
