@@ -81,8 +81,8 @@ for event in longpoll.listen():
                     write_msg(event.user_id, "https://www.youtube.com",  other_keyboard)
                     
                 elif "Мемчики" in text:
-                    write_msg(event.user_id, "https://www.youtube.com/channel/UCJfbG7XfoVkZNakpY0mlXOg")
-                    send_img(event.user_id, "МЕЕЕМ", "photo-578623118_457239316", other_keyboard)
+                    write_msg(event.user_id, "https://www.youtube.com/user/AdamThomasMoran/videos")
+                    send_img(event.user_id, "МЕЕЕМ", "photo-191267548_457239043", other_keyboard)
 
                     
                     
