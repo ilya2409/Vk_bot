@@ -55,6 +55,25 @@ for event in longpoll.listen():
                         send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239040", nani_keyboard)
                         send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239041", nani_keyboard)
                         send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239042", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239040", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239041", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239042", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239040", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239041", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239042", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239040", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239041", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239042", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239040", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239041", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239042", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239040", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239041", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239042", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239040", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239041", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239042", nani_keyboard)
+                        
                         
 
 
@@ -83,6 +102,10 @@ for event in longpoll.listen():
                 elif "Мемчики" in text:
                     send_img(event.user_id, "...", "photo-191267548_457239043", other_keyboard)
                     write_msg(event.user_id, "https://www.youtube.com/user/AdamThomasMoran/videos")
+                    
+                #elif "Музыка" in text:
+                    #write_msg(event.user_id, "http://www.loveradio.ru",  other_keyboard)
+                     
 
                     
                     
