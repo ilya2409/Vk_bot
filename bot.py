@@ -52,28 +52,10 @@ for event in longpoll.listen():
                                                     (если хочешь конечно, для этого напиши "other")""",nani_keyboard)
                         
                 elif any([(i  in text) for i in ["груст", "Груст"]]):
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239040", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239041", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239042", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239040", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239041", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239042", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239040", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239041", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239042", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239040", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239041", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239042", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239040", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239041", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239042", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239040", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239041", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239042", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239040", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239041", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239042", nani_keyboard)
-                        
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239047", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239046", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239045", nani_keyboard)
+                       
                         
 
 
