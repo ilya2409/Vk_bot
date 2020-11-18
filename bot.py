@@ -60,7 +60,7 @@ for event in longpoll.listen():
                 elif any([(i  in text) for i in ["Дел", "дел"]]):
                     write_msg(event.user_id, """У меня всё Окей, висну сдругими ботами
                                                 Ну как дела у тоби в школе?
-                                                Мне просто интересно, как любому другому другу https://vk.com/emoji/e/f09f9884.png """,nani_keyboard)
+                                                Мне просто интересно, как любому другому другу""",nani_keyboard)
              
                         
                        
