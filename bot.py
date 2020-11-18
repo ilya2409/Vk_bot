@@ -55,7 +55,7 @@ for event in longpoll.listen():
                         send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239047", nani_keyboard)
                         send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239046", nani_keyboard)
                         send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239045", nani_keyboard)
-                        send_img(event.user_id, "Лови порцию ми-ми-ми", "photo-191267548_457239048", nani_keyboard)
+                        send_img(event.user_id, "Лови мой друг)))", "photo-191267548_457239048", nani_keyboard)
                        
                         
 
