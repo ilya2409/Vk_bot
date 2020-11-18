@@ -64,7 +64,7 @@ for event in longpoll.listen():
                     
                 elif any([(i  in text) for i in ["Отлично", "Хорошо"]]):
                     write_msg(event.user_id, """Я очень рад за тебя""",nani_keyboard)
-                    send_img(event.user_id, "Лови мой друг)))", "photo-191267548_457239049", nani_keyboard)
+                    send_img(event.user_id, "photo-191267548_457239049", "Лови мой друг)))", nani_keyboard)
 
 
                 #elif any([(i  in text) for i in ["Кот"]]):
