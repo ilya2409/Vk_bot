@@ -55,7 +55,7 @@ for event in longpoll.listen():
                         send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239047", nani_keyboard)
                         send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239046", nani_keyboard)
                         send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239045", nani_keyboard)
-                        send_img(event.user_id, "Лови мой друг)))", "photo-191267548_457239048", nani_keyboard)
+                        send_img(event.user_id, "Лови)))", "photo-191267548_457239048", nani_keyboard)
                         
                 elif any([(i  in text) for i in ["Дел", "дел"]]):
                     write_msg(event.user_id, """У меня всё Окей, висну сдругими ботами
