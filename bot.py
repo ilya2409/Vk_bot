@@ -93,8 +93,14 @@ for event in longpoll.listen():
                     send_img(event.user_id, "...", "photo-191267548_457239043", other_keyboard)
                     write_msg(event.user_id, "https://www.youtube.com/user/AdamThomasMoran/videos")
                     
-                elif "345" in text:
+                elif "#111" in text:
                     write_msg(event.user_id, "Пользуйся)))", tools_keyboard)
+                    
+                elif "Матеша" in text:
+                    write_msg(event.user_id, "https://www.mathway.com/ru/Algebra", tools_keyboard)
+                    
+                elif "Переводчик" in text:
+                    write_msg(event.user_id, "https://translate.google.com/?hl=ru", tools_keyboard)
                     
                 #elif "Музыка" in text:
                     #write_msg(event.user_id, "http://www.loveradio.ru",  other_keyboard)
