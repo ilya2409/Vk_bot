@@ -102,6 +102,9 @@ for event in longpoll.listen():
                 elif "Переводчик" in text:
                     write_msg(event.user_id, "https://translate.google.com/?hl=ru", tools_keyboard)
                     
+                elif "На главную" in text:
+                    write_msg(event.user_id, "Ок", nani_keyboard)
+                    
                 #elif "Музыка" in text:
                     #write_msg(event.user_id, "http://www.loveradio.ru",  other_keyboard)
                      
