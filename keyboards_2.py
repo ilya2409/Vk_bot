@@ -37,6 +37,9 @@ other_keyboard = generate_oneline_keyboard(keys)
 keys = [["Котейка","Собакен"],]
 pet_keyboard = generate_oneline_keyboard(keys)
 
+keys = [["Матеша"]]
+Tools_keyboard = generate_oneline_keyboard(keys)
+
 #return(json.dumps(raw_keyboard))
 
 #test_keyboard = keys 
