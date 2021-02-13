@@ -102,6 +102,7 @@ for event in longpoll.listen():
                 elif "Мемчики" in text:
                     send_img(event.user_id, "...", "photo-191267548_457239043", other_keyboard)
                     write_msg(event.user_id, "https://www.youtube.com/user/AdamThomasMoran/videos")
+                    send_img(event.user_id, "...", "photo-191267548_457239054", other_keyboard)
                     write_msg(event.user_id, "https://vk.com/cleanass")
                     
                 elif "#111" in text:
