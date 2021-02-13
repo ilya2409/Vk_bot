@@ -80,7 +80,7 @@ for event in longpoll.listen():
                     write_msg(event.user_id, '⌨⌨⌨', pet_keyboard)
                     
                 elif "other" in text:
-                    write_msg(event.user_id, """И так, какая 
+                    write_msg(event.user_id, """И так... какая 
                                                 тема у нас сегодня?""", other_keyboard)
                     
                 elif "Музыка" in text:
