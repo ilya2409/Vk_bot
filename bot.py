@@ -85,7 +85,10 @@ for event in longpoll.listen():
                     
                 elif "Музыка" in text:
                     write_msg(event.user_id, "https://vk.com/vkmusic",  other_keyboard)
+                    
+                elif "Музыка_OLD" in text:
                     write_msg(event.user_id, "http://www.loveradio.ru",  other_keyboard)
+                    
                     
                 elif "ARTS" in text:
                     write_msg(event.user_id, "https://www.deviantart.com/",  other_keyboard)
