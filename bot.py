@@ -63,9 +63,12 @@ for event in longpoll.listen():
                     
                         
                 elif any([(i  in text) for i in ["Дел", "дел"]]):
-                    write_msg(event.user_id, """У меня всё Окей, висну сдругими ботами
-                                                Ну как дела у тоби в школе?
-                                                Мне просто интересно, как любому другому другу""",nani_keyboard)
+                    write_msg(event.user_id, """У меня всё Окей, висну сдругими ботами,
+                    кстати скажи им чтобы они так не отвечали...
+                    У МЕНЯ ИНЭТА НЕ ХВАТИТ!!!!!!!!!!!""",nani_keyboard)
+                    send_img(event.user_id, "Лови мой друг)))", "photo-191267548_457239055", nani_keyboard)
+                                               #Ну как дела у тоби в школе?
+                                               #Мне просто интересно, как любому другому другу
                     
                 elif any([(i  in text) for i in ["Отлично", "Хорошо"]]):
                     write_msg(event.user_id, """Я очень рад за тебя""",nani_keyboard)
