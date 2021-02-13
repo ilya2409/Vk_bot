@@ -66,7 +66,7 @@ for event in longpoll.listen():
                     write_msg(event.user_id, """У меня всё Окей, висну сдругими ботами,
                     кстати скажи им чтобы они так не отвечали...
                     У МЕНЯ ИНЭТА НЕ ХВАТИТ!!!!!!!!!!!""",nani_keyboard)
-                    send_img(event.user_id, "Лови мой друг)))", "photo-191267548_457239055", nani_keyboard)
+                    send_img(event.user_id, "_/(ಠ益ಠ)_/", "photo-191267548_457239055", nani_keyboard)
                                                #Ну как дела у тоби в школе?
                                                #Мне просто интересно, как любому другому другу
                     
