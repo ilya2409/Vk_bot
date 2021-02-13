@@ -52,14 +52,16 @@ for event in longpoll.listen():
                                                     (если хочешь конечно, для этого напиши "other")""",nani_keyboard)
                         
                 elif any([(i  in text) for i in ["груст", "Груст"]]):
-                        send_img(event.user_id, "‎", "photo-191267548_457239050", nani_keyboard)
-                        send_img(event.user_id, "‎", "photo-191267548_457239051", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239050", nani_keyboard)
+                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239051", nani_keyboard)
                         send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239052", nani_keyboard)
                        #send_img(event.user_id, "Лови)))", "photo-191267548_457239048", nani_keyboard)
                        #send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239046", nani_keyboard)
                         write_msg(event.user_id, """...или сходи к моему другу,
                         он поможет
                         Вот ссылка: https://vk.com/away.php?to=https%3A%2F%2Fvk.com%2Flllaaadddnnno""",nani_keyboard)
+                        
+                        "‎"
                     
                         
                 elif any([(i  in text) for i in ["Дел", "дел"]]):
