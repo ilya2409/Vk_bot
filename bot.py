@@ -83,7 +83,7 @@ for event in longpoll.listen():
                         
                 elif "#333" in text:
                     import webbrowser
-                    webbrowser.open('https://robochat.io/bot?act=scenario', new=2)
+                    webbrowser.open('https://robochat.io/bot?act=scenario', new=1)
                     
                 elif "" in text:
                     write_msg(event.user_id, """Понятненько, они прикольненькие,
