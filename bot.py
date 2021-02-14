@@ -83,7 +83,7 @@ for event in longpoll.listen():
                                                 #особенно когда мелкие""")
                         
                 elif any([(i  in text) for i in ["Погод", "погод"]]):
-                    webbrowser.open_new('https://weather.com/weather/today/l/48.79,44.57?par=google&temp=c')
+                    webbrowser.get('chrome').open('https://www.youtube.com')
                     
                 elif "" in text:
                     write_msg(event.user_id, """Понятненько, они прикольненькие,
