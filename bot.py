@@ -1,4 +1,5 @@
 import vk_api
+import webbrowser
 from testsfile_2 import tests, check_results
 from vk_api.longpoll import VkLongPoll, VkEventType
 from random import randint
@@ -85,6 +86,7 @@ for event in longpoll.listen():
                     write_msg(event.user_id, """Для меня она всегда солнечная,
                                                 но ты можешь выгленуть в окно или... """)
                     write_msg(event.user_id, "https://weather.com/weather/today/l/48.79,44.57?par=google&temp=c")
+                    webbrowser.open('https://vk.com', new=2)
                     
                 elif "" in text:
                     write_msg(event.user_id, """Понятненько, они прикольненькие,
