@@ -66,8 +66,8 @@ for event in longpoll.listen():
                         
                 elif any([(i  in text) for i in ["Дел", "дел"]]):
                     write_msg(event.user_id, """У меня всё Окей, висну сдругими ботами,
-                    кстати скажи им чтобы они так не отвечали...
-                    У МЕНЯ ИНЭТА НЕ ХВАТИТ!!!!!!!!!!!""",nani_keyboard)
+                                                кстати скажи им чтобы они так не отвечали...
+                                                У МЕНЯ ИНЭТА НЕ ХВАТИТ!!!!!!!!!!!""",nani_keyboard)
                     send_img(event.user_id, "_/(ಠ益ಠ)_/", "photo-191267548_457239055", nani_keyboard)
                                                #Ну как дела у тоби в школе?
                                                #Мне просто интересно, как любому другому другу
@@ -81,7 +81,12 @@ for event in longpoll.listen():
                     #write_msg(event.user_id, """Понятненько, они прикольненькие,
                                                 #особенно когда мелкие""")
                         
-                elif "Котейки" in text:
+                elif any([(i  in text) for i in ["Погод", "погод"]]):
+                    write_msg(event.user_id, """Для меня она всегда солнечная,
+                                                но ты можешь выгленуть в окно или... """)
+                    write_msg(event.user_id, "https://weather.com/weather/today/l/48.79,44.57?par=google&temp=c")
+                    
+                elif "" in text:
                     write_msg(event.user_id, """Понятненько, они прикольненькие,
                                                  особенно когда мелкие""")
 
