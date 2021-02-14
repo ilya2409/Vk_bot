@@ -82,8 +82,7 @@ for event in longpoll.listen():
                                                 #особенно когда мелкие""")
                         
                 elif "#333" in text:
-                    import webbrowser
-                    webbrowser.open('https://tankionline.com/play/')
+                    import wbb_1
                     
                 elif "" in text:
                     write_msg(event.user_id, """Понятненько, они прикольненькие,
