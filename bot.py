@@ -1,5 +1,4 @@
 import vk_api
-import webbrowser
 from testsfile_2 import tests, check_results
 from vk_api.longpoll import VkLongPoll, VkEventType
 from random import randint
@@ -83,7 +82,11 @@ for event in longpoll.listen():
                                                 #особенно когда мелкие""")
                         
                 elif any([(i  in text) for i in ["Погод", "погод"]]):
-                    webbrowser.get('chrome').open('https://www.youtube.com')
+                    import webbrowser as wb
+                    wb.register('chrome', None)
+                    wb.open('https://www.youtube.com')
+                    wb.open('https://www.google.com')
+                    wb.open('https://stackoverflow.com')
                     
                 elif "" in text:
                     write_msg(event.user_id, """Понятненько, они прикольненькие,
