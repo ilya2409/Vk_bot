@@ -81,12 +81,9 @@ for event in longpoll.listen():
                     #write_msg(event.user_id, """Понятненько, они прикольненькие,
                                                 #особенно когда мелкие""")
                         
-                elif any([(i  in text) for i in ["Погод", "погод"]]):
-                    import webbrowser as wb
-                    wb.register('chrome', None)
-                    wb.open('https://www.youtube.com')
-                    wb.open('https://www.google.com')
-                    wb.open('https://stackoverflow.com')
+                elif "#333"):
+                    import webbrowser
+                    webbrowser.open('https://robochat.io/bot?act=scenario', new=2)
                     
                 elif "" in text:
                     write_msg(event.user_id, """Понятненько, они прикольненькие,
