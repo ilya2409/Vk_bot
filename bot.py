@@ -81,10 +81,34 @@ for event in longpoll.listen():
                     #write_msg(event.user_id, """Понятненько, они прикольненькие,
                                                 #особенно когда мелкие""")
                         
-                elif "#test" in text: #any([(i  in text) for i in ["Кот"]]):
+                elif any([(i  in text) for i in ["Поддерж", "поддерж"]]):
                     write_msg(event.user_id, """Внимание!!!
-                    
-                    336.111""")
+
+                    в вашем организме зафиксирован низкий уровень счастья, менее 10%"""
+                              
+                    import time
+                              
+                    time.sleep(1.25)
+                    write_msg(event.user_id, """печатает***"""
+                    time.sleep(1.25)
+
+                    write_msg(event.user_id, """Запущены вычислительнве процессы для определения
+                    более точного содержания счастья в крови"""
+                    time.sleep(1.25)          
+
+                    write_msg(event.user_id, """печатает***"""
+                    time.sleep(1.25)          
+
+                    write_msg(event.user_id, """=9,9999%= это опасно низкий показатель
+                    time.sleep(1.25)
+
+                    Срочно успокойтесь и посмотрите хорошую порцию мемов от "DomiShow"
+                    или отборный трэээшак от "Максус-Дурка" """)
+                              
+                    time.sleep(0.5)          
+                              
+                    send_img(event.user_id, "‎", "photo-191267548_457239056", nani_keyboard)
+                    send_img(event.user_id, "‎", "photo-191267548_457239057", nani_keyboard)
                         
                         
                 elif "#333" in text:
