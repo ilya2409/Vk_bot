@@ -105,8 +105,7 @@ for event in longpoll.listen():
                               
                     time.sleep(0.5)          
                               
-                    send_img(event.user_id, "‎", "photo-191267548_457239056", nani_keyboard)
-                    send_img(event.user_id, "‎", "photo-191267548_457239057", nani_keyboard)
+                    send_img(event.user_id, "‎", "photo-191267548_457239058", nani_keyboard)
                         
                         
                 elif "#333" in text:
