@@ -98,8 +98,7 @@ for event in longpoll.listen():
                     write_msg(event.user_id, """печатает***"""
                     time.sleep(1.25)          
 
-                    write_msg(event.user_id, """=9,9999%= это опасно низкий показатель
-                    time.sleep(1.25)
+                    write_msg(event.user_id, """=9,9999%= это опасно низкий показатель"
 
                     Срочно успокойтесь и посмотрите хорошую порцию мемов от "DomiShow"
                     или отборный трэээшак от "Максус-Дурка" """)
