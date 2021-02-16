@@ -81,7 +81,7 @@ for event in longpoll.listen():
                     #write_msg(event.user_id, """Понятненько, они прикольненькие,
                                                 #особенно когда мелкие""")
                         
-                elif any([(i  in text) for i in ["Кот"]]):
+                elif "#test" #any([(i  in text) for i in ["Кот"]]):
                     write_msg(event.user_id, """Внимание!!!
                     
                     336.111""")
