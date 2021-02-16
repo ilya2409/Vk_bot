@@ -85,17 +85,17 @@ for event in longpoll.listen():
                     import time
                     
                     write_msg(event.user_id, """Внимание!!!
-                    в вашем организме зафиксирован низкий уровень счастья, менее 10%"""  
+                    в вашем организме зафиксирован низкий уровень счастья, менее 10%""")  
                     time.sleep(1.25)
                               
-                    write_msg(event.user_id, """печатает***"""
+                    write_msg(event.user_id, """печатает***""")
                     time.sleep(1.25)
 
                     write_msg(event.user_id, """Запущены вычислительнве процессы для определения
-                    более точного содержания счастья в крови"""
+                    более точного содержания счастья в крови""")
                     time.sleep(1.25)          
 
-                    write_msg(event.user_id, """печатает***"""
+                    write_msg(event.user_id, """печатает***""")
                     time.sleep(1.25)          
 
                     write_msg(event.user_id, """=9,9999%= это опасно низкий показатель"
