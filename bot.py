@@ -82,13 +82,12 @@ for event in longpoll.listen():
                                                 #особенно когда мелкие""")
                         
                 elif any([(i  in text) for i in ["Поддерж", "поддерж"]]):
-                    write_msg(event.user_id, """Внимание!!!
-
-                    в вашем организме зафиксирован низкий уровень счастья, менее 10%"""
-                              
                     import time
-                              
+                    
+                    write_msg(event.user_id, """Внимание!!!
+                    в вашем организме зафиксирован низкий уровень счастья, менее 10%"""  
                     time.sleep(1.25)
+                              
                     write_msg(event.user_id, """печатает***"""
                     time.sleep(1.25)
 
