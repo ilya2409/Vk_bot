@@ -107,9 +107,9 @@ for event in longpoll.listen():
                 elif "#333" in text:
                     import wbb_1
                     
-                elif "" in text:
-                    write_msg(event.user_id, """Понятненько, они прикольненькие,
-                                                 особенно когда мелкие""")
+                #elif "" in text:
+                    #write_msg(event.user_id, """Понятненько, они прикольненькие,
+                                                 #особенно когда мелкие""")
 
                 elif "Pets" in text:
                     write_msg(event.user_id, '⌨⌨⌨', pet_keyboard)
@@ -192,13 +192,6 @@ for event in longpoll.listen():
                     else:
                         write_msg(event.user_id, "nani? ",nani_keyboard)
                         
-                        
-                    if "ping" in text:
-                        write_msg(event.user_id, "pong",nani_keyboard)
-
-                    elif "Хочешь тест?" in text:
-                        write_msg(event.user_id, "Выбери тест", keyboard_with_tests)
-                        tested_users[event.user_id]=None
                         
                 else:
                     write_msg(event.user_id, "nani? ",nani_keyboard)
