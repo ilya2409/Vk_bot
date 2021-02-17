@@ -76,10 +76,6 @@ for event in longpoll.listen():
                     write_msg(event.user_id, """Я очень рад за тебя""",nani_keyboard)
                     send_img(event.user_id, "Лови мой друг)))", "photo-191267548_457239038", nani_keyboard)
 
-
-                #elif any([(i  in text) for i in ["Кот"]]):
-                    #write_msg(event.user_id, """Понятненько, они прикольненькие,
-                                                #особенно когда мелкие""")
                         
                 elif any([(i  in text) for i in ["Поддерж", "поддерж"]]):
                     import time
