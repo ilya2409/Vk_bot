@@ -105,7 +105,10 @@ for event in longpoll.listen():
                         
                         
                 elif "#333" in text:
-                    import wbb_1
+                    #import wbb_1
+                    import webbrowser
+                    
+                    webbrowser.open("https://vk.com/im?peers=-191267548&sel=-169429568")
                     
                 #elif "" in text:
                     #write_msg(event.user_id, """Понятненько, они прикольненькие,
