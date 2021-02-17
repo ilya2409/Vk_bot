@@ -204,7 +204,7 @@ for event in longpoll.listen():
                         tested_users[event.user_id]=None
                         
                     else:
-                        write_msg(event.user_id, "nani?",nani_keyboard)
+                        write_msg(event.user_id, "nani? ",nani_keyboard)
 '''
                 elif "А_1)" in text:
                     write_msg(event.user_id, "Хорошо, -10 баллов")
