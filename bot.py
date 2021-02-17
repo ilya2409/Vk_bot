@@ -190,7 +190,6 @@ for event in longpoll.listen():
                             write_msg(event.user_id, "ok",nani_keyboard)
                             
                  else: 
-                
                     if "ping" in text:
                         write_msg(event.user_id, "pong",nani_keyboard)
 
