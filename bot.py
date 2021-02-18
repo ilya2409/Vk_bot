@@ -139,6 +139,8 @@ for event in longpoll.listen():
                 elif "YouTube" in text:
                     write_msg(event.user_id, "https://youtube.com/channel/UCiW6lzSuVk9AnWuCeXDTusA")
                     write_msg(event.user_id, "https://www.youtube.com",  other_keyboard)
+                    import webbrowser
+                    webbrowser.open_new("https://www.youtube.com")
                     
                 elif "Мемчики" in text:
                     send_img(event.user_id, "...", "photo-191267548_457239043", other_keyboard)
