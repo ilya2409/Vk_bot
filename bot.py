@@ -129,8 +129,8 @@ for event in longpoll.listen():
                     send_img(event.user_id, " ‍ ", "photo-191267548_457239059", nani_keyboard
                     
                 elif "Хочешь тест?" in text:
-                        write_msg(event.user_id, "Выбери тест", keyboard_with_tests)
-                        tested_users[event.user_id]=None
+                            write_msg(event.user_id, "Выбери тест", keyboard_with_tests)
+                            tested_users[event.user_id]=None
                     
                 elif "Музыка" in text:
                     write_msg(event.user_id, "Окай, держи: ", nani_keyboard)
