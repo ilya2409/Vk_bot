@@ -123,6 +123,10 @@ for event in longpoll.listen():
                 elif "ping" in text:
                     write_msg(event.user_id, """pong""", nani_keyboard)
                     
+                elif "Хочешь тест?" in text:
+                        write_msg(event.user_id, "Выбери тест", keyboard_with_tests)
+                        tested_users[event.user_id]=None
+                    
                 elif "Музыка" in text:
                     write_msg(event.user_id, "Окай, держи: ", nani_keyboard)
                     write_msg(event.user_id, """https://vk.com/vkmusic""", other_keyboard)
@@ -195,10 +199,6 @@ for event in longpoll.listen():
                     elif "Оменить тест" in text:
                             tested_users.pop(event.user_id)
                             write_msg(event.user_id, "ok",nani_keyboard)
-                            
-                    elif "Хочешь тест?" in text:
-                        write_msg(event.user_id, "Выбери тест", keyboard_with_tests)
-                        tested_users[event.user_id]=None
                             
                     else:
                         write_msg(event.user_id, "nani? ",nani_keyboard)
