@@ -123,6 +123,11 @@ for event in longpoll.listen():
                 elif "ping" in text:
                     write_msg(event.user_id, """pong""", nani_keyboard)
                     
+                elif "Собакен" in text:
+                    write_msg(event.user_id, """Это тоже отличные питомцы...
+                    хотя вообще я обожаю драконов и всё, что с ними связано =)""", nani_keyboard)
+                    send_img(event.user_id, " ‍ ", "photo-191267548_457239059", nani_keyboard
+                    
                 elif "Хочешь тест?" in text:
                         write_msg(event.user_id, "Выбери тест", keyboard_with_tests)
                         tested_users[event.user_id]=None
