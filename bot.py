@@ -196,6 +196,10 @@ for event in longpoll.listen():
                             tested_users.pop(event.user_id)
                             write_msg(event.user_id, "ok",nani_keyboard)
                             
+                    elif "Хочешь тест?" in text:
+                        write_msg(event.user_id, "Выбери тест", keyboard_with_tests)
+                        tested_users[event.user_id]=None
+                            
                     else:
                         write_msg(event.user_id, "nani? ",nani_keyboard)
                         
