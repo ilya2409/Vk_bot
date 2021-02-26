@@ -227,7 +227,7 @@ for event in longpoll.listen():
                #elif event.user_id in tested_users:
                    #pass
                 else:
-                    write_msg(event.user_id, "Я бы пообщался с тобой еще,но автор не ввел в меня еще команд,поэтому я знаю совсем немного:(", test_keyboard)
+                    write_msg(event.user_id, "Я бы пообщался с тобой еще,но hbvgавтор не ввел в меня еще команд,поэтому я знаю совсем немного:(", test_keyboard)
                     
 send_img(event.user_id, """VK_bot это маленький онлайн тестер,
            https://www.youtube.com/channel/UCJfbG7XfoVkZNakpY0mlXOg                                         он служит для поднятия может быть твого настроения""", "photo-191267548_457239035",nani_keyboard)
