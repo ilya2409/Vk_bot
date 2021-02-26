@@ -126,12 +126,7 @@ for event in longpoll.listen():
                 elif "Собакен" in text:
                     write_msg(event.user_id, """Это тоже отличные питомцы...
                     хотя вообще я обожаю драконов и всё, что с ними связано =)""", nani_keyboard)
-                    send_img(event.user_id, " ‍ ", "photo-191267548_457239059", nani_keyboard
-                    
-                elif "Хочешь тест?" in text:
-                             write_msg(event.user_id, "Выбери тест", keyboard_with_tests)
-                             tested_users[event.user_id]=None
-                            
+                    send_img(event.user_id, " ‍ ", "photo-191267548_457239059", nani_keyboard  
                     
                 elif "Музыка" in text:
                     write_msg(event.user_id, "Окай, держи: ", nani_keyboard)
@@ -206,12 +201,18 @@ for event in longpoll.listen():
                             tested_users.pop(event.user_id)
                             write_msg(event.user_id, "ok",nani_keyboard)
                             
+                   else:
+                    
+                
+                    if "ping" in text:
+                        write_msg(event.user_id, "pong",nani_keyboard)
+
+                    elif "Хочешь тест?" in text:
+                        write_msg(event.user_id, "Выбери тест", keyboard_with_tests)
+                        tested_users[event.user_id]=None
+                        
                     else:
-                        write_msg(event.user_id, "nani? ",nani_keyboard)
-                        
-                        
-                else:
-                    write_msg(event.user_id, "nani? ",nani_keyboard)
+                        write_msg(event.user_id, "nani?",nani_keyboard)
 '''
                 elif "А_1)" in text:
                     write_msg(event.user_id, "Хорошо, -10 баллов")
