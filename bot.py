@@ -114,6 +114,9 @@ for event in longpoll.listen():
                 #elif "" in text:
                     #write_msg(event.user_id, """Понятненько, они прикольненькие,
                                                  #особенно когда мелкие""")
+                elif "Хочешь тест?" in text:
+                        write_msg(event.user_id, "Выбери тест", keyboard_with_tests)
+                        tested_users[event.user_id]=None
 
                 elif "Pets" in text:
                     write_msg(event.user_id, '⌨⌨⌨', pet_keyboard)
@@ -202,10 +205,16 @@ for event in longpoll.listen():
                             tested_users.pop(event.user_id)
                             write_msg(event.user_id, "ok",nani_keyboard)
                             
-                   else:
+                    else:
+                    write_msg(event.user_id, "nani?",nani_keyboard)
+                    
+                            
+                else:
+                    write_msg(event.user_id, "nani?",nani_keyboard)
+                    
                     
                 
-                    if "ping" in text:
+                 """if "ping" in text:
                         write_msg(event.user_id, "pong",nani_keyboard)
 
                     elif "Хочешь тест?" in text:
@@ -213,7 +222,7 @@ for event in longpoll.listen():
                         tested_users[event.user_id]=None
                         
                     else:
-                        write_msg(event.user_id, "nani?",nani_keyboard)
+                        write_msg(event.user_id, "nani?",nani_keyboard)"""
 '''
                 elif "А_1)" in text:
                     write_msg(event.user_id, "Хорошо, -10 баллов")
