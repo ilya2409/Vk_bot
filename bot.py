@@ -206,7 +206,7 @@ for event in longpoll.listen():
                             write_msg(event.user_id, "ok",nani_keyboard)
                             
                     else:
-                    write_msg(event.user_id, "nani?",nani_keyboard)
+                        write_msg(event.user_id, "nani?",nani_keyboard)
                     
                             
                 else:
