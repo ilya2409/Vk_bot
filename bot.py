@@ -109,11 +109,14 @@ for event in longpoll.listen():
                     web_1.funk_1
                     web_1.funk_2
                     
-                    webbrowser.open("https://vk.com/im?peers=-191267548&sel=-169429568")
-                    
-                #elif "" in text:
-                    #write_msg(event.user_id, """Понятненько, они прикольненькие,
+                elif "Котейка" in text:
+                    write_msg(event.user_id, """Понятненько, они прикольненькие,
                                                  #особенно когда мелкие""")
+                elif "Собакен" in text:
+                    write_msg(event.user_id, """Это тоже отличные питомцы...
+                    хотя вообще я обожаю драконов и всё, что с ними связано =)""", nani_keyboard)
+                    send_img(event.user_id, " ‍ ", "photo-191267548_457239059", nani_keyboard)  
+                    
                 elif "Хочешь тест?" in text:
                         write_msg(event.user_id, "Выбери тест", keyboard_with_tests)
                         tested_users[event.user_id]=None
@@ -127,18 +130,13 @@ for event in longpoll.listen():
                 elif "ping" in text:
                     write_msg(event.user_id, """pong""", nani_keyboard)
                     
-                elif "Собакен" in text:
-                    write_msg(event.user_id, """Это тоже отличные питомцы...
-                    хотя вообще я обожаю драконов и всё, что с ними связано =)""", nani_keyboard)
-                    send_img(event.user_id, " ‍ ", "photo-191267548_457239059", nani_keyboard)  
+                elif "Музыка" in text:
+                    write_msg(event.user_id, "Окай, держи: ", nani_keyboard)
+                    write_msg(event.user_id, """https://vk.com/vkmusic""", other_keyboard)
+                    send_img(event.user_id, " ‍ ", "photo-191267548_457239053", nani_keyboard)
                     
-                #elif "Музыка" in text:
-                    #write_msg(event.user_id, "Окай, держи: ", nani_keyboard)
-                    #write_msg(event.user_id, """https://vk.com/vkmusic""", other_keyboard)
-                    #send_img(event.user_id, " ‍ ", "photo-191267548_457239053", nani_keyboard)
-                    
-                #elif "Музыка_OLD" in text:
-                    #write_msg(event.user_id, "http://www.loveradio.ru",  other_keyboard)
+                elif "Музыка_OLD" in text:
+                    write_msg(event.user_id, "http://www.loveradio.ru",  other_keyboard)
                     
                     
                 elif "ARTS" in text:
