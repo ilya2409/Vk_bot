@@ -106,8 +106,7 @@ for event in longpoll.listen():
                         
                 elif "#333" in text:
                     import web_1
-                    web_1.funk_1
-                    web_1.funk_2
+                    web_1.web_2
                     
                 elif "Котейка" in text:
                     write_msg(event.user_id, """Понятненько, они прикольненькие,
