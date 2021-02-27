@@ -212,36 +212,4 @@ for event in longpoll.listen():
                 else:
                     write_msg(event.user_id, "nani?",nani_keyboard)
                     
-                    
-                
-                 """if "ping" in text:
-                        write_msg(event.user_id, "pong",nani_keyboard)
-
-                    elif "Хочешь тест?" in text:
-                        write_msg(event.user_id, "Выбери тест", keyboard_with_tests)
-                        tested_users[event.user_id]=None
-                        
-                    else:
-                        write_msg(event.user_id, "nani?",nani_keyboard)"""
-'''
-                elif "А_1)" in text:
-                    write_msg(event.user_id, "Хорошо, -10 баллов")
-
-                elif "Психотест" in text:
-                    write_msg(event.user_id, """Хорошо,Изначальная сумма твоих балов 100:
-№_1 Если тебе в парную работу педложат мечтательного и
-своебразного человека или сконцентрированного на цели,
-но он предпочитает работать без лишней помощи(КОГО выберишь ты?)
-А_1) мечтательного и своебразного=
-Б_1) сконцентрированного, но он любит работать без лишней помощи""")
-
-               #elif event.user_id in tested_users:
-                   #pass
-                else:
-                    write_msg(event.user_id, "Я бы пообщался с тобой еще,но hbvgавтор не ввел в меня еще команд,поэтому я знаю совсем немного:(", test_keyboard)
-                    
-send_img(event.user_id, """VK_bot это маленький онлайн тестер,
-           https://www.youtube.com/channel/UCJfbG7XfoVkZNakpY0mlXOg                                         он служит для поднятия может быть твого настроения""", "photo-191267548_457239035",nani_keyboard)
-
-Психотест
-'''
+              
