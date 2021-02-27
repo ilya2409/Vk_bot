@@ -204,6 +204,7 @@ for event in longpoll.listen():
                             
                     else:
                         write_msg(event.user_id, "nani?",nani_keyboard)
+                       #фывысфгсупромсфупрфс
                     
                             
                 else:
