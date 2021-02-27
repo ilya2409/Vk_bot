@@ -134,8 +134,8 @@ for event in longpoll.listen():
                     #write_msg(event.user_id, """https://vk.com/vkmusic""", other_keyboard)
                     #send_img(event.user_id, " ‍ ", "photo-191267548_457239053", nani_keyboard)
                     
-                elif "Музыка_OLD" in text:
-                    write_msg(event.user_id, "http://www.loveradio.ru",  other_keyboard)
+                #elif "Музыка_OLD" in text:
+                    #write_msg(event.user_id, "http://www.loveradio.ru",  other_keyboard)
                     
                     
                 elif "ARTS" in text:
