@@ -105,8 +105,9 @@ for event in longpoll.listen():
                         
                         
                 elif "#333" in text:
-                    #import wbb_1
-                    import webbrowser
+                    import web_1
+                    web_1.funk_1
+                    web_1.funk_2
                     
                     webbrowser.open("https://vk.com/im?peers=-191267548&sel=-169429568")
                     
