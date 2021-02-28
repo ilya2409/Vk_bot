@@ -106,7 +106,6 @@ for event in longpoll.listen():
                 elif "🙃😋🙃" in text:
                      write_msg(event.user_id, "А я смотрю ты крэйзи... ")  
                      send_img(event.user_id, "‎", "photo-191267548_457239060", nani_keyboard) 
-                     write_msg(event.user_id, "https://vk.com/sticker/1-20085-128")
                     
                 #elif "talk_keyboard" in text:
                     #write_msg(event.user_id, "‎", talk_keyboard)
