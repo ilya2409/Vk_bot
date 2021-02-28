@@ -106,6 +106,9 @@ for event in longpoll.listen():
                 elif "🙃😋🙃" in text:
                      write_msg(event.user_id, "А я смотрю ты крэйзи... ")  
                      send_img(event.user_id, "‎", "photo-191267548_457239060", nani_keyboard)
+                    
+                elif "talk_keyboard" in text:
+                    write_msg(event.user_id, "‎", talk_keyboard)
 
                         
                 elif any([(i  in text) for i in ["Поддерж", "поддерж"]]):
