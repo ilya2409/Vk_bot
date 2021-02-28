@@ -40,7 +40,7 @@ pet_keyboard = generate_oneline_keyboard(keys)
 keys = [["Матеша", "Переводчик"],["На главную"]]
 tools_keyboard = generate_oneline_keyboard(keys)
 
-keys = [["Коротко, это как?", "Душевно и по человечески)))"]], ["🙃😋🙃"]
+keys = [["Коротко, это как?", "Душевно и по человечески)))"], ["🙃😋🙃"]]
 talk_keyboard = generate_oneline_keyboard(keys)
 
 #return(json.dumps(raw_keyboard))
