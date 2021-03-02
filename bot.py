@@ -138,10 +138,15 @@ for event in longpoll.listen():
                     send_img(event.user_id, "‎", "photo-191267548_457239058", nani_keyboard)
                     write_msg(event.user_id, """https://vk.com/im?peers=-191267548&sel=577866220&z=video-150924658_456240309%2Fd98234ab9ec10fc864""", other_keyboard)
                     write_msg(event.user_id, """https://vk.com/zapreshonnayapost""", other_keyboard)
+                    
+                    time.sleep(1.25)
+                    
+                    write_msg(event.user_id, """https://vk.com/im?peers=-191267548&sel=577866220&z=video-188922589_456239267%2F97f5acdfc7735fcdb5""", other_keyboard)
                         
                         
                 elif "#333" in text:
-                    from web_1 import web_2
+                    import web_1
+                    web_1.web_2
 
                     
                 elif "Котейка" in text:
