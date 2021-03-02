@@ -43,7 +43,7 @@ for event in longpoll.listen():
                         write_msg(event.user_id, """VK_bot это маленький онлайн тестер,
                                                     он служит для поднятия может быть твого настроения""",nani_keyboard)
                         
-                elif text in ("Привет", "Салют", "Helo", "привет"):
+                elif text in ("Привет", "Салют", "Helo", "привет", "Hello", "hello", "helo"):
                     send_img(event.user_id, "Приветствую тебя мой ДЛУГ", "photo-19127548_457239038", nani_keyboard)
                         
                 elif any([(i  in text) for i in ["Говор", "говор"]]):
@@ -136,6 +136,8 @@ for event in longpoll.listen():
                     time.sleep(0.5)          
                               
                     send_img(event.user_id, "‎", "photo-191267548_457239058", nani_keyboard)
+                    write_msg(event.user_id, """https://vk.com/im?peers=-191267548&sel=577866220&z=video-150924658_456240309%2Fd98234ab9ec10fc864""", other_keyboard)
+                    write_msg(event.user_id, """https://vk.com/zapreshonnayapost""", other_keyboard)
                         
                         
                 elif "#333" in text:
@@ -200,8 +202,12 @@ for event in longpoll.listen():
                 elif "На главную" in text:
                     write_msg(event.user_id, "Ок", nani_keyboard)
                     
+                elif "Вид твоего внутреннего волка" in text:
+                    write_msg(event.user_id, """""", nani_keyboard)
+                    
                 #elif "Музыка" in text:
-                    #write_msg(event.user_id, "http://www.loveradio.ru",  other_keyboard)
+                    #write_msg(event.user_id, "http://www.loveradio.ru",  other_keyboard) 
+                    #https://vk.com/im?peers=-191267548&sel=577866220&z=video-150924658_456240309%2Fd98234ab9ec10fc864
                      
 
                     
