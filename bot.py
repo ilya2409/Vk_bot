@@ -62,6 +62,10 @@ for event in longpoll.listen():
                         Вот ссылка: https://vk.com/away.php?to=https%3A%2F%2Fvk.com%2Flllaaadddnnno""",nani_keyboard)
                         
                         "‎"
+                        
+                elif any([(i  in text) for i in ["Танк", "танк"]]):
+                    write_msg(event.user_id, """https://tankionline.com/play/""",nani_keyboard)
+                    
                     
                         
                 elif any([(i  in text) for i in ["Дел", "дел"]]):
