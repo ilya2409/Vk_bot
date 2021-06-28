@@ -53,7 +53,7 @@ for event in longpoll.listen():
                         
                 elif any([(i  in text) for i in ["груст", "Груст"]]):
                         send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239050", nani_keyboard)
-                        send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239051", nani_keyboard)
+                        send_img(event.user_id, "Негрустии :Ъ", "photo-191267548_457239051", nani_keyboard)
                         send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239052", nani_keyboard)
                        #send_img(event.user_id, "Лови)))", "photo-191267548_457239048", nani_keyboard)
                        #send_img(event.user_id, "Негрусти :Ъ", "photo-191267548_457239046", nani_keyboard)
